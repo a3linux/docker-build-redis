@@ -4,17 +4,14 @@ set -e
 # 1. Checkout repo
 # 2. Compile binary
 # 3. Package binary in .tgz
-# 4. Package binary in .deb
 #
 # Options:
 # -v: tag version
 # -d: debug
 # -t <target>: add a make target
 #
-
 BUILD=/build/redis
 SRC=/src
-DEB=/deb
 
 
 # Reset getopts option index
